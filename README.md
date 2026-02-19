@@ -1,40 +1,63 @@
-Python Assignments
-This repository contains Python assignments and solved HackerRank problems covering fundamental and advanced Python topics. It demonstrates problem-solving skills, understanding of data structures, algorithms, and practical usage of Python concepts.
+Python Assignments & HackerRank Solutions
 
-The following problems have been solved to strengthen Python programming skills and algorithmic thinking:
+This repository contains Python assignments and solved HackerRank problems covering fundamental and advanced Python topics. The assignments demonstrate problem-solving skills, understanding of data structures, algorithms, and practical usage of Python concepts.
 
-Finding the Percentage
+1)Basic Python and Lists
 
-Find the Runner-Up Score
+Assignments and exercises covering basic Python operations, list manipulations, and handling simple calculations:
 
-Python Mutations
+Finding the Percentage – Calculate the average score for students.
 
-Merge the Tools
+Find the Runner-Up Score – Identify the second highest number in a list.
 
-String Formatting
+Python Mutations – Modify a string using list conversion and indexing.
 
-Text Alignment
+2)Strings and Text Manipulation
 
-Calendar Module
+Practice exercises focused on string handling, formatting, and alignment:
 
-Time Delta
+Merge the Tools – Split a string into substrings and remove duplicates.
 
-Collections NamedTuple
+String Formatting – Format numbers and text neatly using Python string methods.
 
-No Idea
+Text Alignment – Align text using left, right, and center alignment techniques.
 
-Word Order
+3)Date & Time
 
-Iterables and Iterators
+Assignments exploring Python’s datetime module for calculations and formatting:
 
-Validate List of Email Addresses
+Calendar Module – Work with dates, months, and weekdays.
 
-Piling Up!
+Time Delta – Calculate the difference between two dates.
 
-Floor, Ceil, and Rint
+4)Collections and Iterators
 
-Min and Max
+Problems that use Python collections, sets, and iterators to solve practical tasks:
 
-Linear Algebra
+Collections NamedTuple – Store and access structured data efficiently.
 
-Mean, Variance, and Std
+No Idea – Count happiness value in a list based on two sets.
+
+Word Order – Maintain word frequency while preserving order.
+
+Iterables and Iterators – Work with combinations of iterable objects.
+
+Validate List of Email Addresses – Filter valid emails using Python functions.
+
+5)Problem Solving & Puzzles
+
+Practical exercises that test logical thinking and problem-solving skills:
+
+Piling Up! – Determine if a stack of cubes can be arranged in decreasing order.
+
+6)NumPy Challenges
+
+Assignments leveraging NumPy for numerical operations and linear algebra:
+
+Floor, Ceil, and Rint – Apply rounding operations on arrays.
+
+Min and Max – Find minimum and maximum values along axes.
+
+Linear Algebra – Perform matrix operations and calculations.
+
+Mean, Variance, and Std – Calculate statistical measures on arrays.
