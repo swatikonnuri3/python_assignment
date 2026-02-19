@@ -1,6 +1,10 @@
-import numpy
-def mean_var_std(n,m):
-    arr = numpy.array([list(map(int, input("Enter NxM: ").split())) for _ in range(n)])
-    print(numpy.mean(arr, axis=1))
-    print(numpy.var(arr, axis=0))
-    print(round(numpy.std(arr), 11))
+import numpy as np
+
+def mean_var_std(n, m, matrix):
+    arr = np.array(matrix)
+
+    mean = np.mean(arr, axis=1)
+    var = np.var(arr, axis=0)
+    std = np.std(arr)
+
+    return mean, var, std

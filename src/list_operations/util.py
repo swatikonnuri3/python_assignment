@@ -1,19 +1,23 @@
-def list_operations(my_list, operation, command):
+def list_operations(my_list, operation, *args):
     if operation == "insert":
-        i, e = int(command[1]), int(command[2])
-        my_list.insert(i, e)
-    elif operation == "print":
-        print(my_list)
-    elif operation == "remove":
-        e = int(command[1])
-        my_list.remove(e)
+        index, value = args
+        my_list.insert(index, value)
+
     elif operation == "append":
-        e = int(command[1])
-        my_list.append(e)
+        value = args[0]
+        my_list.append(value)
+
+    elif operation == "remove":
+        value = args[0]
+        my_list.remove(value)
+
     elif operation == "sort":
         my_list.sort()
+
     elif operation == "pop":
         my_list.pop()
+
     elif operation == "reverse":
         my_list.reverse()
+
     return my_list

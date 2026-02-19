@@ -1,8 +1,11 @@
 from collections import namedtuple
 
-def named_tuple(n):
-    Student = namedtuple('Student', input("Enter Column Details: ").split())
+def named_tuple(n, columns, data):
+    Student = namedtuple("Student", columns)
 
-    total_marks = sum(int(Student(*input(f"Enter Column {i+1} Values: ").split()).MARKS) for i in range(n))
-    average = total_marks / n
-    print(f"Average: {average:.2f}")
+    total = 0
+    for row in data:
+        s = Student(*row)
+        total += int(s.MARKS)
+
+    return total / n
