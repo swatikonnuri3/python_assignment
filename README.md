@@ -2,7 +2,7 @@ Python Assignments & HackerRank Solutions
 
 This repository contains Python assignments and solved HackerRank problems covering fundamental and advanced Python topics. The assignments demonstrate problem-solving skills, understanding of data structures, algorithms, and practical usage of Python concepts.
 
-1)Basic Python and Lists
+🐍 Basic Python and Lists
 
 Assignments and exercises covering basic Python operations, list manipulations, and handling simple calculations:
 
@@ -12,7 +12,7 @@ Find the Runner-Up Score – Identify the second highest number in a list.
 
 Python Mutations – Modify a string using list conversion and indexing.
 
-2)Strings and Text Manipulation
+✨ Strings and Text Manipulation
 
 Practice exercises focused on string handling, formatting, and alignment:
 
@@ -22,7 +22,7 @@ String Formatting – Format numbers and text neatly using Python string methods
 
 Text Alignment – Align text using left, right, and center alignment techniques.
 
-3)Date & Time
+⏰ Date & Time
 
 Assignments exploring Python’s datetime module for calculations and formatting:
 
@@ -30,7 +30,7 @@ Calendar Module – Work with dates, months, and weekdays.
 
 Time Delta – Calculate the difference between two dates.
 
-4)Collections and Iterators
+📚 Collections and Iterators
 
 Problems that use Python collections, sets, and iterators to solve practical tasks:
 
@@ -44,13 +44,13 @@ Iterables and Iterators – Work with combinations of iterable objects.
 
 Validate List of Email Addresses – Filter valid emails using Python functions.
 
-5)Problem Solving & Puzzles
+🧩 Problem Solving & Puzzles
 
 Practical exercises that test logical thinking and problem-solving skills:
 
 Piling Up! – Determine if a stack of cubes can be arranged in decreasing order.
 
-6)NumPy Challenges
+🧮 NumPy Challenges
 
 Assignments leveraging NumPy for numerical operations and linear algebra:
 
