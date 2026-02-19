@@ -1,63 +1,161 @@
-Python Assignments & HackerRank Solutions
+Python Assignment
 
-This repository contains Python assignments and solved HackerRank problems covering fundamental and advanced Python topics. The assignments demonstrate problem-solving skills, understanding of data structures, algorithms, and practical usage of Python concepts.
+This repository contains solutions to Python practice problems from HackerRank.
+Each problem is implemented as a small module with a driver.py file to run the solution and a util.py file that contains the core logic.
+Corresponding test cases for each problem are available under the test directory.
 
-🐍 Basic Python and Lists
+Categories and Problems
+Basic Data Types and Lists
 
-Assignments and exercises covering basic Python operations, list manipulations, and handling simple calculations:
+list_operations
 
-Finding the Percentage – Calculate the average score for students.
+find_the_runner_up
 
-Find the Runner-Up Score – Identify the second highest number in a list.
+finding_the_percentage
 
-Python Mutations – Modify a string using list conversion and indexing.
+no_idea
 
-✨ Strings and Text Manipulation
+word_order
 
-Practice exercises focused on string handling, formatting, and alignment:
+named_tuple
 
-Merge the Tools – Split a string into substrings and remove duplicates.
+mutations
 
-String Formatting – Format numbers and text neatly using Python string methods.
+Strings and Formatting
 
-Text Alignment – Align text using left, right, and center alignment techniques.
+string_formatting
 
-⏰ Date & Time
+text_alignment
 
-Assignments exploring Python’s datetime module for calculations and formatting:
+merge_the_tools
 
-Calendar Module – Work with dates, months, and weekdays.
+Iterators and Itertools
 
-Time Delta – Calculate the difference between two dates.
+iter_and_iterator
 
-📚 Collections and Iterators
+Sets and Set Operations
 
-Problems that use Python collections, sets, and iterators to solve practical tasks:
+no_idea
 
-Collections NamedTuple – Store and access structured data efficiently.
+Math and Numeric Operations
 
-No Idea – Count happiness value in a list based on two sets.
+floor_ceil_rint
 
-Word Order – Maintain word frequency while preserving order.
+mean_var_std
 
-Iterables and Iterators – Work with combinations of iterable objects.
+min_max
 
-Validate List of Email Addresses – Filter valid emails using Python functions.
+linear_algebra
 
-🧩 Problem Solving & Puzzles
+Date and Time
 
-Practical exercises that test logical thinking and problem-solving skills:
+calendar_module
 
-Piling Up! – Determine if a stack of cubes can be arranged in decreasing order.
+time_delta
 
-🧮 NumPy Challenges
+Collections and Counters
 
-Assignments leveraging NumPy for numerical operations and linear algebra:
+word_order
 
-Floor, Ceil, and Rint – Apply rounding operations on arrays.
+named_tuple
 
-Min and Max – Find minimum and maximum values along axes.
+Algorithms and Logic Problems
 
-Linear Algebra – Perform matrix operations and calculations.
+piling_up
 
-Mean, Variance, and Std – Calculate statistical measures on arrays.
+Validation and Filtering
+
+validating_email_filter
+
+Project Structure
+.
+├── README.md
+├── output.txt
+├── scripts
+│   └── hooks
+│       ├── commit-message.py
+│       ├── pre-commit.py
+│       └── pre-push.py
+├── src
+│   ├── calendar_module/
+│   ├── find_the_runner_up/
+│   ├── finding_the_percentage/
+│   ├── floor_ceil_rint/
+│   ├── iter_and_iterator/
+│   ├── linear_algebra/
+│   ├── list_operations/
+│   ├── mean_var_std/
+│   ├── merge_the_tools/
+│   ├── min_max/
+│   ├── mutations/
+│   ├── named_tuple/
+│   ├── no_idea/
+│   ├── piling_up/
+│   ├── string_formatting/
+│   ├── text_alignment/
+│   ├── time_delta/
+│   ├── validating_email_filter/
+│   └── word_order/
+└── test
+    ├── calendar_module/
+    ├── find_the_runner_up/
+    ├── finding_the_percentage/
+    ├── floor_ceil_rint/
+    ├── iter_and_iterator/
+    ├── linear_algebra/
+    ├── list_operations/
+    ├── mean_var_std/
+    ├── merge_the_tools/
+    ├── min_max/
+    ├── mutations/
+    ├── named_tuple/
+    ├── no_idea/
+    ├── piling_up/
+    ├── string_formatting/
+    ├── text_alignment/
+    ├── time_delta/
+    ├── validating_email_filter/
+    └── word_order/
+
+Folder Convention
+Source Code
+
+For each problem under src/<problem_name>/:
+
+driver.py contains the entry point to run the solution.
+
+util.py contains the implementation logic.
+
+Test Cases
+
+For each problem under test/<problem_name>/:
+
+test_*.py contains unit tests for the corresponding implementation.
+
+How to Run a Solution
+python src/<problem_name>/driver.py
+
+Example
+python src/list_operations/driver.py
+
+How to Run Tests
+python test/<problem_name>/test_<problem_name>.py
+
+Example
+python test/list_operations/test_list_operations.py
+
+About
+
+This repository contains my Python assignments completed during my internship, focusing on:
+
+Clean code structure
+
+Modular design
+
+Unit testing with pytest
+
+Best practices in Python programming
+
+Languages Used
+
+Python (100%)
