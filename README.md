@@ -99,49 +99,6 @@ All problems are organized topic-wise for clarity and maintainability.
     ├── time_delta/
     ├── validating_email_filter/
     └── word_order/
-'''text
----
-
-## 📌 Folder Convention
-
-**src/<problem_name>/**  
-- `driver.py` → Runs the program  
-- `util.py` → Contains the implementation logic  
-
-**test/<problem_name>/**  
-- `test_<problem_name>.py` → Unit tests for the problem  
 
 ---
-
-## ▶ How to Run a Solution
-
-```bash
-python src/<problem_name>/driver.py
-Example:
-
-python src/list_operations/driver.py
-
-🧪 How to Run Tests
-python test/<problem_name>/test_<problem_name>.py
-
-
-Example:
-
-python test/list_operations/test_list_operations.py
-
-📖 About
-
-This repository contains my Python assignments completed during my internship.
-It follows clean coding practices, modular design, and includes unit tests for reliability.
-
-🛠 Languages Used
-
-Python (100%)
-
-
-✅ This will keep the font size normal, readable on GitHub, VS Code, or any Markdown viewer.  
-
-If you want, I can also **compress the long folder tree** into a more compact version so the README doesn’t scroll too much. It’ll still show all folders but in 3–4 lines.  
-
-Do you want me to do that?
 
